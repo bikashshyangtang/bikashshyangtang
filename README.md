@@ -4,7 +4,7 @@
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;***About me ....***
 
 ✔ Callme: ***He/His*** or ***TeamWorker*** 😊 <br>
-✔ I’m currently trainer<br>
+✔ I’m currently a C# dotNET trainer<br>
 ✔ I’m currently learning about **C# dotNET**🥰<br>
 ✔ I’m looking to collaborate with any **Open - Source c# dotNET projects**<br>
 ✔ Ask from me anything you want, If I am alive I will answer for sure 😉<br>
