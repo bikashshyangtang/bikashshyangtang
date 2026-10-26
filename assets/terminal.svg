@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="316" viewBox="0 0 520 316" role="img" aria-label="Terminal running the TravelPlannerWithAI API and creating a trip">
+  <title>dotnet run — TravelPlanner.Api</title>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1320"/>
+      <stop offset="1" stop-color="#0b0e17"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="20" y="64" width="0" height="26"><animate attributeName="width" from="0" to="480" begin="0.4s" dur="1.3s" fill="freeze" calcMode="discrete" values="0;36;72;108;144;180;216;252;288;324;360;396;432;480" keyTimes="0;.077;.154;.231;.308;.385;.462;.538;.615;.692;.769;.846;.923;1"/></rect></clipPath>
+    <clipPath id="c2"><rect x="20" y="154" width="0" height="26"><animate attributeName="width" from="0" to="480" begin="3.0s" dur="1.2s" fill="freeze" calcMode="discrete" values="0;40;80;120;160;200;240;280;320;360;400;440;480" keyTimes="0;.083;.167;.25;.333;.417;.5;.583;.667;.75;.833;.917;1"/></rect></clipPath>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'SF Mono', Consolas, 'DejaVu Sans Mono', monospace; white-space: pre; }
+      .pr { fill: #2dd4bf; } .cmd { fill: #e6edf3; } .arg { fill: #b39dff; } .dim { fill: #7d8590; } .ok { fill: #7ee787; } .str { fill: #a5e3b5; } .num { fill: #fbbf24; } .info { fill: #7dd3fc; }
+      .show { opacity: 0; animation: show .25s ease-out forwards; }
+      .blink { animation: blink 1.05s steps(1) infinite; }
+      @keyframes show { to { opacity: 1; } }
+      @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .show { animation: none; opacity: 1; } .blink { animation: none; } }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="519" height="315" rx="16" fill="url(#tbg)" stroke="#ffffff" stroke-opacity="0.10"/>
+  <path d="M16.5 0.5h487a16 16 0 0 1 16 16v25h-519v-25a16 16 0 0 1 16-16z" fill="#ffffff" fill-opacity="0.04"/>
+  <circle cx="24" cy="21" r="5.5" fill="#ff5f57"/>
+  <circle cx="42" cy="21" r="5.5" fill="#febc2e"/>
+  <circle cx="60" cy="21" r="5.5" fill="#28c840"/>
+  <text class="mono" x="260" y="26" font-size="12.5" fill="#7d8590" text-anchor="middle">bash — TravelPlanner.Api</text>
+  <line x1="0" y1="41.5" x2="520" y2="41.5" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g class="mono" font-size="14.5">
+    <!-- command 1 (typed) -->
+    <text xml:space="preserve" x="22" y="82" clip-path="url(#c1)"><tspan class="pr">❯ </tspan><tspan class="cmd">dotnet run</tspan><tspan class="arg"> --project</tspan><tspan class="cmd"> TravelPlanner.Api</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:2.0s" x="22" y="108"><tspan class="info">info</tspan><tspan class="dim">: Now listening on </tspan><tspan class="cmd">https://localhost:7001</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:2.4s" x="22" y="132"><tspan class="info">info</tspan><tspan class="dim">: API docs at </tspan><tspan class="cmd">/scalar</tspan></text>
+
+    <!-- command 2 (typed) -->
+    <text xml:space="preserve" x="22" y="172" clip-path="url(#c2)"><tspan class="pr">❯ </tspan><tspan class="arg">POST</tspan><tspan class="cmd"> /api/trips </tspan><tspan class="dim">{ </tspan><tspan class="str">"city"</tspan><tspan class="dim">: </tspan><tspan class="str">"Kyoto"</tspan><tspan class="dim">, </tspan><tspan class="str">"days"</tspan><tspan class="dim">: </tspan><tspan class="num">3</tspan><tspan class="dim"> }</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:4.6s" x="22" y="198"><tspan class="dim">  ├─ </tspan><tspan class="ok">✓</tspan><tspan class="cmd"> request validated</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:5.0s" x="22" y="222"><tspan class="dim">  ├─ </tspan><tspan class="ok">✓</tspan><tspan class="cmd"> places grounded</tspan><tspan class="dim">   (Foursquare)</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:5.6s" x="22" y="246"><tspan class="dim">  ├─ </tspan><tspan class="ok">✓</tspan><tspan class="cmd"> itinerary drafted</tspan><tspan class="dim"> (Semantic Kernel)</tspan></text>
+    <text xml:space="preserve" class="show" style="animation-delay:6.1s" x="22" y="270"><tspan class="dim">  └─ </tspan><tspan class="ok">201 Created</tspan><tspan class="dim"> · saved via EF Core</tspan></text>
+
+    <g class="show" style="animation-delay:6.5s">
+      <text xml:space="preserve" x="22" y="298"><tspan class="pr">❯ </tspan></text>
+      <rect class="blink" x="42" y="285" width="9" height="17" rx="1.5" fill="#b39dff"/>
+    </g>
+  </g>
+</svg>
