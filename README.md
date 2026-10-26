@@ -15,7 +15,7 @@
 <img align="right" width="380" src="assets/terminal.svg" alt="Terminal running TravelPlannerWithAI and creating a trip" />
 
 - 💼 **~2 years of production C# / .NET** at two fintech companies in Kathmandu
-- 🎓 **Master of Computer Science** at Fairleigh Dickinson University
+- 🎓 **Master of Computer Science** at Fairleigh Dickinson University, Vancouver Campus
 - 🤖 Building **LLM-powered APIs** with Semantic Kernel and Clean Architecture
 - 🌱 Learning **JavaScript and React** to round out the frontend
 - 📍 Based in **Vancouver, BC**, open to developer roles and co-ops
