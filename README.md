@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="assets/header.svg" width="100%" alt="Bikash Shyangtang — Backend Developer · C# / .NET · Vancouver, BC" />
 </p>
 
@@ -15,7 +15,7 @@
 <img align="right" width="380" src="assets/terminal.svg" alt="Terminal running TravelPlannerWithAI and creating a trip" />
 
 - 💼 **~2 years of production C# / .NET** at two fintech companies in Kathmandu
-- 🎓 **Master of Computer Science** at Fairleigh Dickinson University, Vancouver Campus
+- 🎓 **Master of Science Applied Computer Science** at Fairleigh Dickinson University, Vancouver Campus
 - 🤖 Building **LLM-powered APIs** with Semantic Kernel and Clean Architecture
 - 🌱 Learning **JavaScript and React** to round out the frontend
 - 📍 Based in **Vancouver, BC**, open to developer roles and co-ops
